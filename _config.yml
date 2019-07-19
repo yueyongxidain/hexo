@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Annie
+theme: miho
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -86,3 +86,22 @@ search:
   versionPath: searchVersion.txt
   field: post
   #field: post, page or all
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: false
